@@ -17,11 +17,12 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 100px;
+  padding: 100px 50px;
 }
 .columns-card {
-  /* display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .columns-card .column {
   padding: 30px;
@@ -87,9 +88,12 @@ body {
   background-color: var(--very-dark-cyan);
 }
 /* Start Media */
+
 @media (min-width: 768px) {
   .columns-card {
-    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
   .columns-card .column:nth-child(1) {
     border-top-left-radius: var(--border-radius);
