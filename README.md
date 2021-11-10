@@ -20,4 +20,4 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- Thanks a lot Frontendmentor for your help and support :)
