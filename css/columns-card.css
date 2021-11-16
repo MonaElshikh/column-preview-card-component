@@ -15,15 +15,9 @@ body {
   font-family: "Big Shoulders Display", "Lexend Deca", sans-serif, cursive;
   background-color: hsl(0, 0%, 95%);
   display: flex !important;
-  justify-content: center;
-  align-items: center;
-  margin: 50px 0;
 }
 .columns-card {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* height: 500px; */
+  margin: 100px auto;
 }
 .columns-card .column {
   padding: 30px;
@@ -43,17 +37,17 @@ body {
   border-bottom-right-radius: var(--border-radius);
 }
 .columns-card .column > img {
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 .columns-card .column > h1 {
   text-transform: uppercase;
   color: var(--very-light-gray);
-  margin-bottom:25px;
+  margin-bottom: 25px;
 }
 .columns-card .column > p {
   color: var(--transparent-white);
   line-height: 1.5;
-  margin: 20px 0 ;
+  margin: 20px 0;
   font-family: Lexend Deca;
 }
 .columns-card .column > a {
@@ -92,10 +86,14 @@ body {
 /* Start Media */
 
 @media (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
   .columns-card {
-    flex-direction: row;
+    display: flex !important;
     justify-content: center;
     align-items: center;
+    margin: auto !important;
   }
   .columns-card .column:nth-child(1) {
     border-top-left-radius: var(--border-radius);
