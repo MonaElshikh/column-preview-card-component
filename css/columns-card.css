@@ -20,7 +20,7 @@ body {
   margin: 100px auto;
 }
 .columns-card .column {
-  padding: 70px 35px;
+  padding: 70px 35px 30px;
   width: 300px;
 }
 .columns-card .column:nth-child(1) {
@@ -53,7 +53,7 @@ body {
 .columns-card .column > a {
   display: inline-block;
   padding: 10px 25px;
-  margin: 60px 0 20px;
+  margin: 80px 0 20px;
   text-decoration: none;
   text-align: center;
   border-radius: 20px;
