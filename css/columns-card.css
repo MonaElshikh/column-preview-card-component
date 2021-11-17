@@ -20,7 +20,7 @@ body {
   margin: 100px auto;
 }
 .columns-card .column {
-  padding: 30px;
+  padding: 70px 35px;
   width: 300px;
 }
 .columns-card .column:nth-child(1) {
